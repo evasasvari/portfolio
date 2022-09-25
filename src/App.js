@@ -10,12 +10,8 @@ import LittleTrees from "./pages/LittleTrees";
 
 
 function App() {
-
-
-
     return (
         <main>
-         
           <Routes>
           <Route path="*" element={<Navigate to="/home" />} />
           <Route path="/home" element={< HomePage/>} />
