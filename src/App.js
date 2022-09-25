@@ -17,8 +17,8 @@ function App() {
         <main>
          
           <Routes>
-          <Route path="*" element={<Navigate to="http://evasasvari.github.io/portfolio" />} />
-          <Route path="http://evasasvari.github.io/portfolio" element={< HomePage/>} />
+          <Route path="*" element={<Navigate to="/home" />} />
+          <Route path="/home" element={< HomePage/>} />
           <Route path="/genbrun" element={< GenBrun/>} />
           <Route path="/little-trees" element={< LittleTrees/>} />
           <Route path="/about" element={< AboutPage/>} />
