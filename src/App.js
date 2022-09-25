@@ -17,11 +17,11 @@ function App() {
         <main>
          
           <Routes>
-          <Route path="*" element={<Navigate to="/home" />} />
-          <Route path="/home" element={< HomePage/>} />
-          <Route path="/genbrun" element={< GenBrun/>} />
-          <Route path="/little-trees" element={< LittleTrees/>} />
-          <Route path="/about" element={< AboutPage/>} />
+          <Route path="*" element={<Navigate to="http://evasasvari.github.io/portfolio/home" />} />
+          <Route path="http://evasasvari.github.io/portfolio/home" element={< HomePage/>} />
+          <Route path="http://evasasvari.github.io/portfolio/genbrun" element={< GenBrun/>} />
+          <Route path="http://evasasvari.github.io/portfolio/little-trees" element={< LittleTrees/>} />
+          <Route path="http://evasasvari.github.io/portfolio/about" element={< AboutPage/>} />
           </Routes>
           <Nav/>
         </main>
