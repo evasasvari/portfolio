@@ -21,7 +21,7 @@ export default function HomePage(){
                 <div className="headercontent">
                     <nav>
                         <a className="infolinks" href="https://linkedin.com/in/éva-sasvári/" target="_blank" rel="noopener noreferrer">
-                            <img className="imageLink" src="images/linkedinicon.webp" alt="linkedinicon"/></a>
+                            <img className="imageLink" src="./images/linkedinicon.webp" alt="linkedinicon"/></a>
                         <a className="infolinks" href="https://github.com/evasasvari" target="_blank" rel="noopener noreferrer">
                             <img className="imageLink" src="images/githubicon.webp" alt="githubicon"/></a>
                         <a className="infolinks" href="mailto:evasasvari016@gmail.com">
