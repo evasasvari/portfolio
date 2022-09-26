@@ -51,7 +51,7 @@ export default function HomePage(){
 
 
           <section className="projects">
-                <h1>My Projects</h1>
+                <h2>My Projects</h2>
 
                 <section className="grid-container">
                     {projects.map(project => (

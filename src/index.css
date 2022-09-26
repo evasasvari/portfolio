@@ -4,6 +4,19 @@
 *{margin: 0;
   padding: 0;
 }
+h3{
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  color: rgba(39, 0, 130, 1);
+  margin: 0 0 2vw 0;
+}
+h2{
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 50px;
+ 
+  color: rgba(39, 0, 130, 1);
+  margin:5vw 0 2vw 10vw;
+}
 /*----------------------------HOME PAGE START-------------------------------*/
 /*-------------header starts*/
 .imageContainer{
@@ -74,8 +87,7 @@
 .headertext{
   width: 100%;
   margin: 5vw 0 0 10vw;
-
-  padding: 0 0vw 0 0;
+  padding: 0 0 0 0;
 
 }
 
@@ -161,9 +173,9 @@ nav img{
 
 /*-------------Home page content starts*/
 
-.projects h1{
+.projects h2{
   font-family: 'Covered By Your Grace', cursive;
-  font-size: 70px;
+  font-size: 50px;
   margin:5vw 0 0 10vw;
   color: rgba(39, 0, 130, 1);
   
@@ -318,3 +330,115 @@ footer::before {
   border-radius: 50% 50% 0 0 / 100% 100% 0 0;
   transform: scaleX(1.5);
 }
+/*----------------------------FOOTER PAGE ENDS-------------------------------*/
+
+/*----------------------------ABOUT PAGE STARTS-------------------------------*/
+.aboutheader{
+  font-size: 50px;
+  color: rgba(39, 0, 130, 1);
+  font-family: 'Covered By Your Grace', cursive;
+  margin: 3vw 0 3vw 0;
+  text-align: center;
+}
+
+
+.abouttextcard{
+  display: flex;
+  flex-direction: row;
+  margin:2vw 0 0 10vw;
+}
+.abouttext-left{
+  width: 50%;
+  margin: 0 4vw 0 0;
+  padding: 0 0 0 0 ;
+}
+.abouttext-left p{
+  margin: 0 0 2vw 0;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.6;
+
+}
+.abouttext-right{
+  width: 50%;
+  overflow: hidden;
+}
+.abouttextimage{
+  width: 30vw;  
+}
+
+
+.aboutmeskills{
+  margin: 8vw auto auto auto;
+  background-color: rgba(229, 228, 243, 1);
+  width:80% ;
+  padding: 0 0 3vw 0;
+  
+  
+}
+#myskills{
+  text-align: center;
+  margin: 0 0 2vw 0;
+  padding: 2vw 0 0 0;
+}
+.skillstable{
+  margin:auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  text-align: center;
+  column-count: 2;
+  
+}
+.skills{
+  width: 50%;
+
+}
+
+#firstcolumn{
+ border-right: solid 3px rgba(193, 112, 175, 1);
+ margin: 0 0 0 0 ;
+}
+.skillList{
+  text-align: center;
+  list-style: none;
+  font-family: 'Raleway', sans-serif;
+  line-height: 2;
+  margin: 0 1vw 2vw 2vw;
+
+  
+}
+.skillList li::before {
+  content: "\2022";
+  color:rgba(193, 112, 175, 1);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+  
+
+.skillicon{
+  width: 10vw;
+}
+
+
+.interesttable{
+  margin:0 10vw 5vw 10vw;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.6;
+
+}
+.interesttable li{
+ margin: 0 0 2vw 0;
+ list-style: none;
+}
+.interesttable li ::before{
+  content: "\2022";
+  color:rgba(193, 112, 175, 1);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+  
