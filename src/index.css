@@ -8,7 +8,7 @@ h3{
   font-family: 'Raleway', sans-serif;
   font-size: 25px;
   color: rgba(39, 0, 130, 1);
-  margin: 0 0 2vw 0;
+  margin: 0 0 1vw 0;
 }
 h2{
   font-family: 'Covered By Your Grace', cursive;
@@ -16,6 +16,10 @@ h2{
  
   color: rgba(39, 0, 130, 1);
   margin:5vw 0 2vw 10vw;
+}
+.links{
+  
+  color:rgba(193, 112, 175, 1); ;
 }
 /*----------------------------HOME PAGE START-------------------------------*/
 /*-------------header starts*/
@@ -98,8 +102,8 @@ h2{
   margin: 0 0 0 0;
 
 }
-.headertext h2{
-  
+.headertext p{
+  font-size: 30px;
   color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
@@ -186,6 +190,7 @@ nav img{
   flex-direction: column;
   margin: 5vw 0 0 0;
   text-align: right;
+  
 }
 
 .projectcard{
@@ -194,11 +199,7 @@ nav img{
   margin: 0 10vw 5vw 10vw ;
   box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
   position: relative;
-  border-radius: 2vw;
-}
-
-
-.projectcard:nth-child(1n){
+  border-radius: 10px;
   text-align: left;
   
 }
@@ -228,7 +229,7 @@ nav img{
   height: 20vw;
   object-fit: cover;
   box-shadow: 0px 10px 14px -7px  rgba(34, 35, 58, 0.2);
-  border-radius: 2vw 0 0 2vw;
+  border-radius: 10px 0 0 10px;
   
   /*test*/
   
@@ -249,7 +250,7 @@ nav img{
 }
 
 .buttonlink {
-  color: rgba(39, 0, 130, 1);
+  color:rgba(193, 112, 175, 1);
   text-decoration: none;
   position: relative;
   padding: 14px 0;
@@ -333,11 +334,20 @@ footer::before {
 /*----------------------------FOOTER PAGE ENDS-------------------------------*/
 
 /*----------------------------ABOUT PAGE STARTS-------------------------------*/
-.aboutheader{
+.headertype2{
   font-size: 50px;
   color: rgba(39, 0, 130, 1);
   font-family: 'Covered By Your Grace', cursive;
   margin: 3vw 0 3vw 0;
+  
+  
+}
+.backarrow{
+  width: 3vw;
+  margin: 1vw 0 2vw 10vw;
+  position: absolute;
+}
+.headertype2title{
   text-align: center;
 }
 
@@ -356,7 +366,7 @@ footer::before {
   margin: 0 0 2vw 0;
   font-family: 'Raleway', sans-serif;
   line-height: 1.6;
-
+  
 }
 .abouttext-right{
   width: 50%;
@@ -370,6 +380,7 @@ footer::before {
 .aboutmeskills{
   margin: 8vw auto auto auto;
   background-color: rgba(229, 228, 243, 1);
+  border-radius: 10px;
   width:80% ;
   padding: 0 0 3vw 0;
   
@@ -441,4 +452,100 @@ footer::before {
   width: 1em;
   margin-left: -1em;
 }
+.interestimage{
+  width: 15vw;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.imagerow{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  margin: 0 auto 10vw auto;
+  width: 80%;
   
+} 
+
+.imagecolumn{
+  margin:0 2vw 0 0;
+}
+/*----------------------------ABOUT PAGE ENDS-------------------------------*/
+
+/*----------------------------GENBRUN PROJECT STARTS-------------------------------*/
+.projecticon{
+  width: 2vw;
+  margin: 0 1vw 0 0;
+}
+.iconinfo{
+  display: flex;
+  flex-direction: row;
+}
+
+.projecttextcard{
+  display: flex;
+  flex-direction: row;
+  margin:2vw 0 0 10vw;
+}
+.projecttext-left{
+  width: 50%;
+  margin: 0 4vw 0 0;
+  padding: 0 0 0 0 ;
+}
+.projecttext-left p{
+  margin: 0 0 2vw 0;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.6;
+  
+}
+.projecttext-right{
+  width: 50%;
+  overflow: hidden;
+}
+.projecttextimage{
+  width: 20vw;  
+  margin:0 auto 0 auto;
+}
+
+
+.processcardrow{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin:0 0 10vw 0;
+  
+  
+  
+}
+
+.processcardcolumn{
+  background-color: rgba(229, 228, 243, 1);
+  margin:0 1vw 0 1vw;
+  padding: 2vw 2vw 0 2vw;
+  flex-wrap: wrap;
+  
+  
+}
+.processlist{
+  
+  list-style: none;
+  font-family: 'Raleway', sans-serif;
+  line-height: 2;
+  margin: 0 1vw 2vw 2vw;
+  max-width: 10vw;
+  min-width: 10vw;
+
+}
+.processlist li::before {
+  content: "\2022";
+  color:rgba(193, 112, 175, 1);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.processarrow{
+  height: 2vw;
+  margin: auto 0 auto 0;
+
+}

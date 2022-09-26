@@ -13,7 +13,7 @@ export default function Projects({ project }) {
             <img src={image} alt={project.title?.rendered} />
 
             <div className="projecttext">
-                <h2>{parse(project.title.rendered)}</h2>
+                <h3>{parse(project.title.rendered)}</h3>
                 <div>{parse(project.content.rendered)}</div>
                 <div className="button">
                     <a href={parse(project.slug)} className="buttonlink">

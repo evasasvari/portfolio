@@ -1,10 +1,19 @@
+import { NavLink } from "react-router-dom";
+
 export default function AboutPage(){
     return(
         <main>
-            <div className="header">
-            <section className="aboutheader">
-                <h1>About me</h1>
-               
+            <div className="header" >
+
+            <section className="headertype2">
+                <div>
+                <NavLink to="/home">
+                        <img className="backarrow" src="images/backarrow.webp" alt="backarrow"/>
+                </NavLink> 
+                </div>
+                <div>
+                    <h1 className="headertype2title">About me</h1>
+                </div>
             </section>
             </div>
 
@@ -15,7 +24,7 @@ export default function AboutPage(){
                 <div className="abouttextcard">
                     <div className="abouttext-left">
                         <p>
-                            My name is Éva Sasvári. I am 21 years old Multimedia Design student based in Aarhus, Denmark. I’m from Hungary, but I always loved to travel and get to know more about the world and that is the reason I decided to study abroad. 
+                            My name is Éva Sasvári. I'm 21 years old Multimedia Design student living in Aarhus, Denmark. I’m from Hungary, but I always loved to travel and get to know more about the world and that is the reason I decided to study abroad. 
                         </p>
                         <p>
                             I’m specializing in frontend development, but I also have interest in UX/UI and working on visuals. I believe developing and teaching ourselves is the key to an interesting and colourful life. I love to challenge myself and solve problems in the most creative and efficient way possible.
@@ -24,7 +33,7 @@ export default function AboutPage(){
                     </div>
 
                     <div className="abouttext-right">
-                        <img className="abouttextimage" src="images/wunderbaumproject.webp" alt="pictureofme"/>
+                        <img className="abouttextimage" src="images/aboutme.jpg" alt="pictureofme"/>
                     </div>
                 </div> 
             
@@ -73,8 +82,21 @@ export default function AboutPage(){
                     <li><b>Traveling 🧳: </b>When I have more free time, I love to travel and hike. On holidays, I try to organise trips to places I never been before. I find beauty in cities and outside of them. </li>
                     
                 </ul>
+                <div className="imagerow">
+                    <div className="imagecolumn">
+                        <img className="interestimage" src="images/painting.jpg" alt="painting"/>
+                    </div>
+                    <div className="imagecolumn">
+                        <img className="interestimage" src="images/hiking.jpg" alt="painting"/>
+                    </div>
 
-                <img className="skillicon" src="./images/paintin.jpg" alt="hardskillsicon"/>
+                    <div className="imagecolumn">
+                        <img className="interestimage" src="images/hike.jpg" alt="painting"/>
+                    </div>
+                    <div className="imagecolumn">
+                        <img className="interestimage" src="images/camera.jpg" alt="painting"/>
+                    </div>
+                </div>
 
             </section>
 

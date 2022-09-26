@@ -10,7 +10,6 @@ export default function HomePage(){
         async function getData() {
             const response = await fetch("https://portfolio.evasasvari.com/wp-json/wp/v2/projects?_embed&v=999");
             const data = await response.json();
-						console.log(data);
             setProjects(data);
         }
         getData();
@@ -28,12 +27,12 @@ export default function HomePage(){
                             <img className="imageLink" src="images/mailicon.webp" alt="mailicon"/></a>
                     </nav>
                         <div className="headertext">
-                            <h2 className="welcome">Welcome!</h2>
-                            <h2 >I am</h2>
+                            <p className="welcome">Welcome!</p>
+                            <p >I'm</p>
                             <div className="name">
                                 <h1>Eva Sasvari</h1>  
                             </div>
-                        <h2>A Designer and Frontend Developer</h2>
+                        <p>A Designer and Frontend Developer</p>
                     </div>
                     <img className="namearrow" src="images/namearrow.webp" alt="aboutme"/> 
                     
